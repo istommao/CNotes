@@ -17,3 +17,8 @@ void main()
 - [输入输出](notes/fIO.md)
 - [UNIX 系统接口](notes/funix_api.md)
 - [标准库](notes/flib.md)
+
+## C语言学习资源整理
+
+- [C语言学习资源整理](https://zhuanlan.zhihu.com/p/23677249)
+- [笨办法学C 中文版](https://wizardforcel.gitbooks.io/lcthw/content/)
