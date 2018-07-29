@@ -4,3 +4,6 @@
 * [实战篇](practice/index.md)
     * [链表](practice/sorting.md)
     * [排序算法](practice/sorting.md)
+* [C Primer Plus]
+    * [概览](overview.md)
+    * [C数据类型](ds.md)
