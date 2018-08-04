@@ -21,7 +21,8 @@
         "prism": {
             "lang": {
                 "console": "bash",
-                "shell": "bash"
+                "shell": "bash",
+                "clang": "c"
             },
             "css": [
               "prismjs/themes/prism-okaidia.css"
