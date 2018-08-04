@@ -1,0 +1,36 @@
+{
+    "title": "C Notes",
+    "description": "C学习笔记,C语言学习笔记",
+    "language": "zh-hans",
+    "plugins": [
+        "github",
+        "prism",
+        "sitemap",
+        "toc2",
+        "expandable-chapters",
+        "page-toc-button",
+        "back-to-top-button"
+    ],
+    "pluginsConfig": {
+        "github": {
+          "url": "https://github.com/istommao/CNotes"
+        },
+        "sitemap": {
+            "hostname": "https://clang.silentnotes.top/"
+        },
+        "prism": {
+            "lang": {
+                "console": "bash",
+                "shell": "bash"
+            },
+            "css": [
+              "prismjs/themes/prism-okaidia.css"
+            ]
+        },
+        "toc2": {
+            "addClass": true,
+            "className": "toc"
+        },
+        "expandable-chapters":{}
+    }
+}
