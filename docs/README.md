@@ -30,3 +30,38 @@ void main()
 - [C语言程序设计:现代方法](https://www.amazon.cn/dp/B003BVBOOQ/)
 - [The C programming_Language](https://www.amazon.cn/dp/B0011425T8/)
 - [C primer plus](https://www.amazon.cn/dp/B01FE26HAU/)
+
+## C语言知识点大汇总
+
+- http://www.imooc.com/article/1255
+
+### 变量交换
+
+`第三个变量交换`
+
+```c
+c = b ;
+b = a ;
+a = c ;
+```
+
+`加减法`
+
+```c
+b = a - b ;
+a = a - b ;
+b = a + b ;
+```
+
+`按位异或`
+
+```c
+a = a ^ b ;
+b = a ^ b ;
+a = a ^ b ;
+```
+
+### sizeof使用
+
+- sizeof是运算符 不是函数
+- 跟数据类型时必须加()
