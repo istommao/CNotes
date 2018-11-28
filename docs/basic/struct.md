@@ -42,3 +42,12 @@ typedef struct {
     double fuel;
 } Car;
 ```
+
+```c
+// 二叉树
+typedef struct Tree {
+    struct Tree *left;
+    struct Tree *right;
+    int val;
+} Tree;
+```
