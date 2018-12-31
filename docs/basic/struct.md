@@ -51,3 +51,25 @@ typedef struct Tree {
     int val;
 } Tree;
 ```
+
+
+## 结构体函数指针
+
+```c
+void (*eat)(Animal *animal, char *food);
+
+typedef struct {
+    char *name;
+    void (*eat)(Animal *animal, char *food);
+} Animal;
+
+int eat(Animal *animal, char *food) {
+    printf("%s eat %s\n", animal->name, food);
+}
+
+int main() {
+    Animal cat = {.name="tom", .eat=eat};
+    cat.eat("fish");
+    return 0;
+}
+```

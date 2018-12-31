@@ -1,5 +1,11 @@
 CFLAGS=-Wall -g
 
+CC=gcc
+
+.SUFFIXES: .c .o
+
+.c.o:
+	$(CC) -c -o $@ $^
 
 clean:
-	rm -f ex1
+	rm -rf *.o
